@@ -24,11 +24,11 @@ export default function Results() {
             <div className=' bg-white rounded-2xl shadow-xl p-8 text-center'>
                 {/* Header */}
                 <div className="mb-8">
-                    <div className={`inline-flex items-center justify-center w-24 h-24 rounded-full mb-6 `}>
+                    <div className={`inline-flex items-center justify-center w-24 h-24 rounded-full mb-4 `}>
                         <Trophy className=' w-12 h-12' />
                     </div>
-                    <h1 className=' text-4xl font-bold text-gray-800'>Quiz</h1>
-                    <p className=' text-2xl font-semibold mb-6'>aaaaaa</p>
+                    <h1 className=' text-4xl font-bold text-gray-800'>Success</h1>
+                    <p className=' text-2xl font-semibold mb-6'>Chúc mừng bàn đã hoàn thành bài thi</p>
                 </div>
 
                 {/* Cards */}
@@ -40,7 +40,7 @@ export default function Results() {
                         <div className=' text-3xl font-bold to-blue-800 mb-2'>
                             {score} / {totalQuestions}
                         </div>
-                        <div className=' text-blue-600 font-medium '> Question Correct
+                        <div className=' text-blue-600 font-medium '> Đáp án chính xác
                         </div>
                     </div>
                     <div className=' bg-gradient-to-br from-purple-50 to-blue-50 p-6 rounded-xl '>
@@ -50,7 +50,7 @@ export default function Results() {
                         <div className=' text-3xl font-bold to-purple-800 mb-2'>
                             {percentage}%
                         </div>
-                        <div className=' text-purple-600 font-medium '> Score Percentage
+                        <div className=' text-purple-600 font-medium '> Tỷ lệ đúng
                         </div>
                     </div>
                     <div className=' bg-gradient-to-br from-green-50 to-blue-50 p-6 rounded-xl '>
@@ -60,7 +60,7 @@ export default function Results() {
                         <div className=' text-3xl font-bold to-green-800 mb-2'>
                             {minuteUsed}:{secondUsed.toString().padStart(2, "0")}
                         </div>
-                        <div className=' text-green-600 font-medium '> Timer Used
+                        <div className=' text-green-600 font-medium '> Thời gian làm bài
                         </div>
                     </div>
 
@@ -70,7 +70,7 @@ export default function Results() {
 
                 <div className='mb-8'>
                     <h3 className=' text-xl font-semibold text-gray-800 mb-4'>
-                        Question Review
+                        Chi tiết
                     </h3>
                     {/* Display dynamic question */}
                     <div className=' grid gap-4 max-h-64 overflow-y-auto'>
@@ -86,10 +86,10 @@ export default function Results() {
                             )
                         })}
                     </div>
-                    <button className=' inline-flex items-center space-x-3 px-8 py-4 bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-xl hover:from-blue-600 hover:to-purple-700 transform hover:scale-105 transition-all duration-200 shadow-lg font-semibold text-lg cursor-pointer'
+                    <button className='mt-4 inline-flex items-center space-x-3 px-8 py-4 bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-xl hover:from-blue-600 hover:to-purple-700 transform hover:scale-105 transition-all duration-200 shadow-lg font-semibold text-lg cursor-pointer'
                         onClick={handleReset}>
                         <RefreshCcw size={24} className=' pr-2' />
-                        Take Quiz Again
+                        Làm lại
                     </button>
                 </div>
             </div>

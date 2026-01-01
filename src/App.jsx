@@ -1,7 +1,8 @@
 import React from 'react'
-import Quiz from './components/Quiz'
+// import Quiz from './components/Quiz'
 import { Provider } from 'react-redux'
 import { store } from "./store/store"
+import { Quiz } from './components'
 
 export default function App() {
   return (

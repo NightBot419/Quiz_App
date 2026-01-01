@@ -1,20 +1,16 @@
 import React, { useEffect } from 'react'
-import QuizStart from './QuizStart'
-import ProgressBar from './ProgressBar'
-import Timer from './Timer'
-import Questions from './Questions'
-import Results from './Results'
 import { useDispatch, useSelector } from 'react-redux'
-import Loading from './Loading'
-import { sampleQuestions } from "../data/questions"
+import { sampleQuestions } from "../data/LSD/Quiz1"
 import { setQuestions } from "../store/quizSlice"
+import shuffleQuiz from '../store/randomQuiz'
+import { QuizStart, ProgressBar, Timer, Questions, Results, Loading } from "./"
 
 export default function Quiz() {
 
     const dispatch = useDispatch()
-
+    const randomizedQuiz = shuffleQuiz(sampleQuestions)
     useEffect(() => {
-        dispatch(setQuestions(sampleQuestions))
+        dispatch(setQuestions(randomizedQuiz))
     }, dispatch)
 
     const {
@@ -66,4 +62,31 @@ export default function Quiz() {
             <Questions />
         </div>
     )
+}
+
+
+function shuffleQuestionsAndOptions(questions) {
+    return questions.map(q => {
+        const optionsWithIndex = q.options.map((opt, index) => ({
+            text: opt,
+            index
+        }));
+
+        // shuffle options
+        for (let i = optionsWithIndex.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [optionsWithIndex[i], optionsWithIndex[j]] =
+                [optionsWithIndex[j], optionsWithIndex[i]];
+        }
+
+        const newCorrectAnswer = optionsWithIndex.findIndex(
+            o => o.index === q.correctAnswer
+        );
+
+        return {
+            ...q,
+            options: optionsWithIndex.map(o => o.text),
+            correctAnswer: newCorrectAnswer
+        };
+    });
 }

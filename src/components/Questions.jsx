@@ -9,7 +9,6 @@ export default function Questions() {
         useSelector((state) => state.quiz)
 
     const currentQuestion = questions[currentQuestionIndex]
-    console.log(answers)
     const currentAnswer = answers.find(
         (answer) => answer.questionId === currentQuestion.id)
 
@@ -26,7 +25,6 @@ export default function Questions() {
         dispatch(previousQuestion())
     }
 
-    let isExplanation
     return (
         <div className=' max-w-4xl mx-auto'>
             <div className=' bg-white rounded-2xl shadow-xl p-8 transition-all duration-300 hover:shadow-2xl'>
@@ -39,7 +37,6 @@ export default function Questions() {
                             const isSelected = currentAnswer?.selectedOption === index
                             const isCorrect = index === currentQuestion.correctAnswer
                             const isWrong = isSelected && !isCorrect && showExplanation
-                            isExplanation = isCorrect
                             let buttonClass = `w-full p-4 text-left rounded-xl border-1 border-gray-300 transition-all duration-200`
                             if (showExplanation) {
                                 if (isCorrect) {
@@ -92,7 +89,7 @@ export default function Questions() {
                     <button className='flex items-center space-x-2 px-6 py-3 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 disabled:opacity-5 disabled:cursor-not-allowed transition-all duration-200'
                         onClick={handlePrivious}>
                         <ArrowLeft size={20} />
-                        <span>Previous</span>
+                        <span>Quay lại</span>
                     </button>
                     {showExplanation &&
                         <button className='flex items-center space-x-2 px-6 py-3 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 disabled:opacity-5 disabled:cursor-not-allowed transition-all duration-200'

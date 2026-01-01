@@ -5,7 +5,7 @@ const initialState = {
     answers: [],
     isQuizCompleted: false,
     score: 0,
-    timeLeft: 300,
+    timeLeft: 3000,
     isTimerActive: false,
     showExplanation: false,
 }
@@ -23,7 +23,7 @@ const quizSlice = createSlice({
             state.answers = [];
             state.isQuizCompleted = false;
             state.score = 0;
-            state.timeLeft = 300;
+            state.timeLeft = 3000;
             (state.isTimerActive = true), (state.showExplanation = false);
         },
 
@@ -75,7 +75,7 @@ const quizSlice = createSlice({
             state.answers = [];
             state.isQuizCompleted = false;
             state.score = 0;
-            state.timeLeft = 300;
+            state.timeLeft = 3000;
             (state.isTimerActive = false), (state.showExplanation = false);
         }
 

@@ -11,7 +11,6 @@ export default function QuizStart() {
     }
 
     return (
-
         <div className="max-w-4xl mx-auto">
             <div className="bg-white rounded-2xl shadow-xl p-8 text-center">
                 <div className="mb-8 grid grid-rows">
@@ -29,15 +28,15 @@ export default function QuizStart() {
                             <BookOpen className='w-8 h-8 text-blue-600' />
                         </div>
                         <div className="text-2xl font-bold text-blue-800 mb-2">60</div>
-                        <div className="text-2xl font-medium">Questions</div>
+                        <div className="text-2xl font-medium">Câu hỏi</div>
                     </div>
                     <div className="bg-gradient-to-br from-purple-50 to-purple-100 p-6 rounded-xl">
                         <div className="flex items-center justify-center mb-4">
                             <Clock className='w-8 h-8 text-purple-600' />
 
                         </div>
-                        <div className="text-2xl font-bold text-purple-600 mb-2">60:00</div>
-                        <div className="text-2xl font-medium">Minutes</div>
+                        <div className="text-2xl font-bold text-purple-600 mb-2">50:00</div>
+                        <div className="text-2xl font-medium">Phút</div>
                     </div>
                     <div className="bg-gradient-to-br from-green-50 to-green-100 p-6 rounded-xl">
                         <div className="flex items-center justify-center mb-4">
@@ -45,14 +44,14 @@ export default function QuizStart() {
 
                         </div>
                         <div className="text-2xl font-bold text-green-600 mb-2">100%</div>
-                        <div className="text-2xl font-medium">Max Score</div>
+                        <div className="text-2xl font-medium">Điểm tối đa</div>
                     </div>
                 </div>
 
                 {/* Rules */}
 
                 <div className="mb-8">
-                    <h3 className="text-xl font-semibold text-gray-800 mb-4">Quiz Rules</h3>
+                    <h3 className="text-xl font-semibold text-gray-800 mb-4">Quy tắc</h3>
                     <div className="text-left bg-gray-50 p-6 rounded-xl max-w-2xl mx-auto">
                         <ul className="space-y-3 text-gray-700">
                             <li className="flex items-start">
@@ -77,7 +76,7 @@ export default function QuizStart() {
                                 <span className="flex-shring-0 justify-center w-6 h-6 bg-blue-100 text-blue-600 rounded-full flex items-center text-sm font-semibold mr-3 mt-0.5">
                                     4
                                 </span>
-                                <span className="">Bạn có thể xem lại toàn bô sau khi hoàn thành</span>
+                                <span className="">Đừng nhấn nút quay lại vì đang bị lỗi!!</span>
                             </li>
                         </ul>
                     </div>
