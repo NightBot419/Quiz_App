@@ -10,7 +10,7 @@ import { listPage } from './constants/listPages'
 export default function App() {
   return (
     <Provider store={store}>
-      <BrowserRouter>
+      <BrowserRouter basename="/Quiz_App">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/LSD" element={<LSD />} />
