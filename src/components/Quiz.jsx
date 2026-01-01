@@ -1,17 +1,27 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { sampleQuestions } from "../data/LSD/Quiz1"
-import { setQuestions } from "../store/quizSlice"
-import shuffleQuiz from '../store/randomQuiz'
+import { useParams } from 'react-router-dom'
+import { setQuestions, resetQuiz } from "../store/quizSlice"
+import { shuffleQuiz, loadQuizQuestions } from '../store/quizLoader'
 import { QuizStart, ProgressBar, Timer, Questions, Results, Loading } from "./"
 
-export default function Quiz() {
+export default function Quiz({ quizType }) {
 
     const dispatch = useDispatch()
-    const randomizedQuiz = shuffleQuiz(sampleQuestions)
+    const { quizId } = useParams();
+    const [isLoadingQuiz, setIsLoadingQuiz] = useState(true);
+
     useEffect(() => {
-        dispatch(setQuestions(randomizedQuiz))
-    }, dispatch)
+        dispatch(resetQuiz()); // Reset quiz state when quizType changes
+        const fetchAndSetQuestions = async () => {
+            setIsLoadingQuiz(true); // Set loading to true before fetching
+            const loadedQuestions = await loadQuizQuestions(quizType, quizId);
+            const randomizedQuiz = shuffleQuiz(loadedQuestions);
+            dispatch(setQuestions(randomizedQuiz));
+            setIsLoadingQuiz(false);
+        };
+        fetchAndSetQuestions();
+    }, [quizType, quizId, dispatch])
 
     const {
         questions,
@@ -22,7 +32,7 @@ export default function Quiz() {
         = useSelector((state) => state.quiz)
 
 
-    if (questions.length === 0) {
+    if (isLoadingQuiz || questions.length === 0) {
         return (
             <Loading />
         )
@@ -37,9 +47,11 @@ export default function Quiz() {
     }
 
     if (!isTimerActive && answers.length === 0) {
+        const quizTitle = `${quizType} đề ${quizId}`;
+        const totalQuestions = questions.length;
         return (
             <div className='py-8 px-4 min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50 '>
-                <QuizStart />
+                <QuizStart quizTitle={quizTitle} totalQuestions={totalQuestions} />
             </div>
         )
     }
@@ -62,31 +74,4 @@ export default function Quiz() {
             <Questions />
         </div>
     )
-}
-
-
-function shuffleQuestionsAndOptions(questions) {
-    return questions.map(q => {
-        const optionsWithIndex = q.options.map((opt, index) => ({
-            text: opt,
-            index
-        }));
-
-        // shuffle options
-        for (let i = optionsWithIndex.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [optionsWithIndex[i], optionsWithIndex[j]] =
-                [optionsWithIndex[j], optionsWithIndex[i]];
-        }
-
-        const newCorrectAnswer = optionsWithIndex.findIndex(
-            o => o.index === q.correctAnswer
-        );
-
-        return {
-            ...q,
-            options: optionsWithIndex.map(o => o.text),
-            correctAnswer: newCorrectAnswer
-        };
-    });
 }
