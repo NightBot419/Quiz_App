@@ -1,1 +1,0 @@
-const n=[{id:1,question:"Phong trào Xô Viết-Nghệ Tĩnh phát triển đến đỉnh cao vào khoảng thời gian nào?",options:["Từ tháng 6-1930 đến tháng 9-1931","Từ tháng 5-1930 đến tháng 9-1930","Từ tháng 5-1930 đến tháng 10-1930","Từ tháng 5-1931 đến tháng 8-1931"],correctAnswer:1,explanation:"True"}];export{n as sampleQuestions};
