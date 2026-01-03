@@ -39,7 +39,7 @@ export default function Timer() {
         <div className={` flex items-center space-x-2 ${getTimerColor()}`}>
             <Clock size={20} />
             <span className=' font-mono text-lg font-semibold'>{formatTime(timeLeft)}</span>
-
         </div>
+
     )
 }

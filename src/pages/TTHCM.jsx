@@ -1,20 +1,20 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const quizModules = import.meta.glob('../data/LSD/*.js');
+const quizModules = import.meta.glob('../data/TTHCM/*.js');
 const quizzes = Object.keys(quizModules).map((path) => {
     const match = path.match(/Quiz(\d+)\.js$/);
-    return match ? { id: match[1], name: `Đề ${match[1]}`, href: `/LSD/${match[1]}` } : null;
+    return match ? { id: match[1], name: `Đề ${match[1]}`, href: `/TTHCM/${match[1]}` } : null;
 }).filter(Boolean);
 
 console.log(quizzes)
-export default function LSD() {
+export default function TTHCM() {
     return (
         <div className="min-h-screen flex items-center justify-center">
             <div className="max-w-4xl mx-auto">
                 <div className="bg-white rounded-2xl shadow-xl p-8 text-center">
                     <h1 className="text-4xl font-extrabold text-gray-900 mb-8">
-                        Ôn tập Lịch sử Đảng
+                        Ôn tập Tư tưởng Hồ Chí Minh
                     </h1>
                     <p className="text-lg text-gray-700 mb-12">
                         Chọn một đề để bắt đầu

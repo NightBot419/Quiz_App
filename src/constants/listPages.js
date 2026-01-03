@@ -20,4 +20,25 @@ export const listPage = [
         , description: "Cách cài đặt Hadoop 3.3.0 cho window 10"
         , href: "/hadoop"
     },
+    {
+        id: 4,
+        name: "Công nghệ phần mềm",
+        imageUrl: ""
+        , description: "Ôn tập trắc nghiệm"
+        , href: "/CNPM"
+    },
+    {
+        id: 5,
+        name: "Mạng máy tính",
+        imageUrl: ""
+        , description: "Ôn tập trắc nghiệm"
+        , href: "/MMT"
+    },
+    {
+        id: 6,
+        name: "OPP",
+        imageUrl: ""
+        , description: "Ôn tập trắc nghiệm"
+        , href: "/OPP"
+    },
 ]
