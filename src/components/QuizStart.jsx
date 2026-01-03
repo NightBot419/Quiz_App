@@ -35,7 +35,7 @@ export default function QuizStart({ quizTitle, totalQuestions }) {
                             <Clock className='w-8 h-8 text-purple-600' />
 
                         </div>
-                        <div className="text-2xl font-bold text-purple-600 mb-2">50:00</div>
+                        <div className="text-2xl font-bold text-purple-600 mb-2">15:00</div>
                         <div className="text-2xl font-medium">Phút</div>
                     </div>
                     <div className="bg-gradient-to-br from-green-50 to-green-100 p-6 rounded-xl">

@@ -5,7 +5,7 @@ const initialState = {
     answers: [],
     isQuizCompleted: false,
     score: 0,
-    timeLeft: 3000,
+    timeLeft: 900,
     isTimerActive: false,
     showExplanation: false,
 }

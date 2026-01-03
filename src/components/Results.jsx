@@ -11,7 +11,7 @@ export default function Results() {
 
     const totalQuestions = questions.length
     const percentage = Math.round((score / totalQuestions) * 100)
-    const timeUsed = 300 - timeLeft
+    const timeUsed = 900 - timeLeft
     const minuteUsed = Math.floor(timeUsed / 60)
     const secondUsed = timeUsed % 60
 
