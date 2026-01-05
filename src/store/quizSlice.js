@@ -23,7 +23,7 @@ const quizSlice = createSlice({
             state.answers = [];
             state.isQuizCompleted = false;
             state.score = 0;
-            state.timeLeft = 3000;
+            state.timeLeft = 900;
             (state.isTimerActive = true), (state.showExplanation = false);
         },
 
@@ -75,7 +75,7 @@ const quizSlice = createSlice({
             state.answers = [];
             state.isQuizCompleted = false;
             state.score = 0;
-            state.timeLeft = 3000;
+            state.timeLeft = 900;
             (state.isTimerActive = false), (state.showExplanation = false);
         }
 
