@@ -27,9 +27,9 @@ export default function Questions() {
 
     return (
         <div className=' max-w-4xl mx-auto'>
-            <div className=' bg-white rounded-2xl shadow-xl p-8 transition-all duration-300 hover:shadow-2xl'>
+            <div className=' bg-white rounded-2xl shadow-xl p-6 sm:p-8 transition-all duration-300 hover:shadow-2xl'>
                 <div className=' mb-8'>
-                    <h2 className=' text-2xl font-bold text-gray-800 mb-6 leading-relaxed'>{currentQuestion.question}</h2>
+                    <h2 className=' text-lg sm:text-2xl font-bold text-gray-800 mb-6 leading-relaxed'>{currentQuestion.question}</h2>
                     {/* Display Dynamic Answer */}
                     <div className="grid gap-4">
                         {currentQuestion.options.map((option, index) => {
@@ -58,7 +58,7 @@ export default function Questions() {
                                 <button key={index} className={buttonClass} onClick={() => handleOptionClick(index)}>
                                     {/* <div className=' border-gray-200 bg-white text-gray-700 hover:border-blue-300 hover:bg-blue-50 hover:shadow-md'></div> */}
                                     <div className=' flex items-center justify-between'>
-                                        <span className=' text-lg'>{option}</span>
+                                        <span className=' text-sm sm:text-lg'>{option}</span>
                                         {showExplanation && isCorrect && (
                                             <CheckCircle size={24} className=' text-gray-600' />
                                         )}
@@ -86,7 +86,7 @@ export default function Questions() {
                 </div>
                 {/* Button */}
                 <div className="flex justify-between items-center">
-                    <button className='flex items-center space-x-2 px-6 py-3 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 disabled:opacity-5 disabled:cursor-not-allowed transition-all duration-200'
+                    <button className='flex items-center space-x-2 pr-4 pl-2 py-3 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 disabled:opacity-5 disabled:cursor-not-allowed transition-all duration-200'
                         onClick={handlePrivious}>
                         <ArrowLeft size={20} />
                         <span>Quay lại</span>
@@ -99,7 +99,6 @@ export default function Questions() {
                         </button>}
 
                 </div>
-
             </div>
         </div >
     )
