@@ -260,7 +260,7 @@ export const sampleQuestions = [
             "Chân chống lên trời",
             "Đầu ngược xuống đất"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "True"
     },
     {

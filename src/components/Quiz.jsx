@@ -47,7 +47,7 @@ export default function Quiz({ quizType }) {
     }
 
     if (!isTimerActive && answers.length === 0) {
-        const quizTitle = `${quizType} đề ${quizId}`;
+        const quizTitle = quizId === 'random' ? `${quizType} đề ngẫu nhiên` : `${quizType} đề ${quizId}`;
         const totalQuestions = questions.length;
         return (
             <div className='py-8 px-4 min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50 '>

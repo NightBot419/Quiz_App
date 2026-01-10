@@ -43,6 +43,19 @@ export async function loadQuizQuestions(quizType, quizId = null) {
     const modules = import.meta.glob('../data/**/*.js');
     let allQuestions = [];
 
+    if (quizId === 'random') {
+        const quizPathPrefix = `../data/${quizType}/`;
+        for (const path in modules) {
+            if (path.startsWith(quizPathPrefix)) {
+                const mod = await modules[path]();
+                if (mod.sampleQuestions) {
+                    allQuestions = allQuestions.concat(mod.sampleQuestions);
+                }
+            }
+        }
+        return shuffleArray(allQuestions).slice(0, 60);
+    }
+    
     if (quizId) {
         const path = `../data/${quizType}/Quiz${quizId}.js`;
         if (modules[path]) {

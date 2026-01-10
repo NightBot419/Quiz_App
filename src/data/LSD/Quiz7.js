@@ -1,462 +1,198 @@
 export const sampleQuestions = [
     {
         id: 1,
-        question: "Mục tiêu xây dựng, phát triển kinh tế-xã hội trong giai đoạn mới do Đại hội IV của Đảng (12-1976) đề ra là:",
+        question: "Phong trào đình công, bãi công của công nhân Việt Nam trong những năm 1926 - 1929 thuộc khuynh hướng nào?",
         options: [
-            "Việt Nam trở thành nước công nghiệp hiện đại",
-            "Việt Nam trở thành một nước công nghiệp hiện đại, nông nghiệp hiện đại, khoa học - kỹ thuật tiên tiến",
-            "Việt Nam trở thành một nước xã hội chủ nghĩa có kinh tế công - nông nghiệp hiện đại, văn hóa và khoa học - kỹ thuật tiên tiến, quốc phòng, an ninh vững mạnh, có đời sống văn minh, hạnh phúc",
-            "Sớm đưa nước ta cơ bản trở thành nước công nghiệp theo hướng hiện đại"
+            "Khuynh hướng vô sản và dân chủ tư sản",
+            "Khuynh hướng phong kiến.",
+            "Khuynh hướng dân chủ tư sản.",
+            "Khuynh hướng vô sản."
         ],
-        correctAnswer: 3 - 1,
+        correctAnswer: 4 - 1,
         explanation: "True"
     },
     {
         id: 2,
-        question: "Đại hội nào của Đảng đề ra đường lối đổi mới toàn diện, trong đó lấy đổi mới kinh tế làm trọng tâm?",
+        question: "Đâu là tổ chức cộng sản đầu tiên ra đời ở Việt Nam?",
         options: [
-            "Đại hội đại biểu toàn quốc lần thứ V (1982)",
-            "Đại hội đại biểu toàn quốc lần thứ VI (1986)",
-            "Đại hội đại biểu toàn quốc lần thứ IV (1976)",
-            "Đại hội đại biểu toàn quốc lần thứ VII (1991)"
+            "Đảng Cộng sản Việt Nam.",
+            "Đông Dương Cộng sản Đảng.",
+            "An Nam Cộng sản Đảng.",
+            "Đông Dương Cộng sản Liên đoàn."
         ],
         correctAnswer: 2 - 1,
         explanation: "True"
     },
     {
         id: 3,
-        question: "Đại hội nào của Đảng đề ra chủ trương xóa bỏ cơ chế tập trung quan liêu, hành chính, bao cấp chuyển sang hạch toán kinh doanh?",
+        question: "Sự kiện nào đánh dấu giai cấp công nhân Việt Nam đã bước đầu đi vào đấu tranh tự giác?",
         options: [
-            "Đại hội đại biểu toàn quốc lần thứ IX (2001)",
-            "Đại hội đại biểu toàn quốc lần thứ VI (1986)",
-            "Đại hội đại biểu toàn quốc lần thứ VIII (1996)",
-            "Đại hội đại biểu toàn quốc lần thứ VII (1991)"
+            "Cuộc bãi công của công nhân thợ nhuộm Sài Gòn - Chợ Lớn (1922).",
+            "Cuộc tổng bãi công của công nhân Bắc Kỳ (1922).",
+            "Cuộc bãi công của thợ máy xưởng Ba Son cảng Sài Gòn (1925).",
+            "Cuộc bãi công của công nhân nhà máy sợi Nam Định (1925)."
         ],
-        correctAnswer: 2 - 1,
+        correctAnswer: 3 - 1,
         explanation: "True"
     },
     {
         id: 4,
-        question: "Bài học: \"Kết hợp chặt chẽ ngay từ đầu đổi mới kinh tế với đổi mới chính trị, lấy đổi mới kinh tế làm trọng tâm, đồng thời từng bước đổi mới chính trị\" được Đại hội nào của Đảng rút ra?",
+        question: "Chi bộ cộng sản đầu tiên ở nước ta được thành lập ở đâu? Ai làm bí thư chi bộ?",
         options: [
-            "Đại hội đại biểu toàn quốc lần thứ IX (2001)",
-            "Đại hội đại biểu toàn quốc lần thứ X (2011)",
-            "Đại hội đại biểu toàn quốc lần thứ VII (1991)",
-            "Đại hội đại biểu toàn quốc lần thứ VIII (1996)"
+            "Hà Nội - Bí thư Trịnh Đình Cửu.",
+            "Sài Gòn - Bí thư Ngô Gia Tự.",
+            "Sài Gòn - Bí thư Trịnh Đình Cửu.",
+            "Hà Nội - Bí thư Trần Văn Cung."
         ],
         correctAnswer: 4 - 1,
         explanation: "True"
     },
     {
         id: 5,
-        question: "Quốc dân Đại hội Tân trào tháng 8-1945 đã không thông qua quyết định nào sau đây?",
+        question: "Sự kiện nào được Nguyễn Ái Quốc đánh giá “nó chứng tỏ rằng giai cấp vô sản ta đã trưởng thành và đủ sức lãnh đạo cách mạng”?",
         options: [
-            "Thông qua Mười Chính sách của Việt Minh",
-            "Quyết định thành lập Uỷ ban giải phóng ở Hà Nội",
-            "Quyết định thành lập Uỷ ban giải phóng dân tộc",
-            "Quyết định Tổng khởi nghĩa của Đảng"
+            "Thành lập Đảng Cộng sản Việt Nam (1930).",
+            "Chi bộ cộng sản đầu tiên của Việt Nam ra đời (1929).",
+            "Thành lập tổ chức Công hội đỏ Bắc Kỳ (1929).",
+            "Sự ra đời của ba tổ chức cộng sản (1929)."
         ],
-        correctAnswer: 2 - 1,
+        correctAnswer: 1 - 1,
         explanation: "True"
     },
     {
         id: 6,
-        question: "Đại hội nào của Đảng khẳng định: \"Khối lượng xây dựng các công trình thủy lợi trong 5 năm (1976-1980) của cả nước dự kiến sẽ tăng gấp đôi tổng khối lượng đã thực hiện trong 20 năm ở các tỉnh phía Bắc",
+        question: "Hãy cho biết đặc điểm ra đời của giai cấp công nhân Việt Nam?",
         options: [
-            "Đại hội đại biểu toàn quốc lần thứ V (3-1982)",
-            "Đại hội đại biểu toàn quốc lần thứ VII (6-1991)",
-            "Đại hội đại biểu toàn quốc lần thứ IV (12-1976)",
-            "Đại hội đại biểu toàn quốc lần thứ VI (12-1986)"
+            "Ra đời trước giai cấp tư sản dân tộc Việt Nam, sớm tiếp thụ ánh sáng cách mạng của chủ nghĩa Mác – Lênin.",
+            "Phần lớn xuất thân từ nông dân.",
+            "Chịu sự áp bức và bóc lột của đế quốc, phong kiến và tư sản.",
+            "Cả ba phương án kia đều đúng."
         ],
-        correctAnswer: 3 - 1,
+        correctAnswer: 4 - 1,
         explanation: "True"
     },
     {
         id: 7,
-        question: "Điền cụm từ vào chỗ [...]. Đại hội XI (1-2011) của Đảng tiếp tục khẳng định: \"Phát triển giáo dục và đào tạo cùng với [-] là quốc sách hàng đầu\".",
+        question: "Cơ quan tuyên truyền của Hội Việt Nam cách mạng Thanh niên là tờ báo nào?",
         options: [
-            "Nguồn vốn",
-            "Khoa học và công nghệ",
-            "Văn hóa, xã hội",
-            "Con người"
+            "Báo Người cùng khổ.",
+            "Báo Lao động.",
+            "Báo Công nhân.",
+            "Báo Thanh niên."
         ],
-        correctAnswer: 2 - 1,
+        correctAnswer: 4 - 1,
         explanation: "True"
     },
     {
         id: 8,
-        question: "Trong các cuộc cách mạng mà Đại hội IV (12-1976) nêu ra, cuộc cách mạng nào là then chốt?",
+        question: "Cương lĩnh chính trị đầu tiên của Đảng do ai soạn thảo?",
         options: [
-            "Cuộc cách mạng khoa học - kỹ thuật",
-            "Cuộc cách mạng quan hệ sản xuất",
-            "Tất cả phương án",
-            "Cuộc cách mạng tư tưởng và văn hóa"
+            "Nguyễn Ái Quốc.",
+            "Trần Phú.",
+            "Lê Hồng Phong.",
+            "Hà Huy Tập."
         ],
         correctAnswer: 1 - 1,
         explanation: "True"
     },
     {
         id: 9,
-        question: "Cương lĩnh xây dựng đất nước trong thời kỳ quá độ lên chủ nghĩa xã hội được thông qua tại Đại hội VII (1991) chủ trương xây dựng nền văn hóa như thế nào?",
+        question: "Trong Cương lĩnh chính trị đầu tiên của Đảng, xác định giai cấp nào là lực lượng lãnh đạo cách mạng?",
         options: [
-            "Dân tộc, khoa học, đại chúng",
-            "Mang nội dung xã hội chủ nghĩa, tính đảng, tính dân tộc và tính nhân dân",
-            "Tiến tiến, đậm đà bản sắc dân tộc",
-            "Tính đảng, tính dân tộc và tính nhân dân"
-        ],
-        correctAnswer: 3 - 1,
-        explanation: "True"
-    },
-    {
-        id: 10,
-        question: "Đại hội X (4-2006) của Đảng lần đầu tiên cho phép đảng viên được làm gì?",
-        options: [
-            "Kinh tế hộ gia đình",
-            "Kinh tế tư nhân",
-            "Kinh tế tập thể",
-            "Kinh tế nhà nước"
+            "Giai cấp tư sản.",
+            "Giai cấp vô sản.",
+            "Giai cấp nông dân.",
+            "Giai cấp địa chủ."
         ],
         correctAnswer: 2 - 1,
         explanation: "True"
     },
     {
-        id: 11,
-        question: "Đại hội nào của Đảng được đánh giá là Đại hội của \"Trí tuệ, đổi mới, dân chủ, kỷ cương và đoàn kết\"?",
+        id: 10,
+        question: "Luận cương chính trị 10/1930 xác định điều kiện cốt yếu cho thắng lợi của cách mạng Việt Nam là gì?",
         options: [
-            "Đại hội đại biểu toàn quốc lần thứ VIII (1996)",
-            "Đại hội đại biểu toàn quốc lần thứ VII (1991)",
-            "Đại hội đại biểu toàn quốc lần thứ IX (2001)",
-            "Đại hội đại biểu toàn quốc lần thứ VI (1986)"
+            "Sự lãnh đạo của Đảng Cộng sản.",
+            "huẩn bị “võ trang bạo động” cho quần chúng.",
+            "Tinh thần đoàn kết gắn bó với giai cấp vô sản thế giới.",
+            "Lấy giai cấp vô sản là động lực chính của cách mạng."
+        ],
+        correctAnswer: 1 - 1,
+        explanation: "True"
+    },
+    {
+        id: 11,
+        question: "Trong các điểm sau, điểm khác nhau giữa Cương lĩnh chính trị đầu tiên (tháng 2-1930) của Đảng và Luận cương chính trị tháng 10/1930 là gì?",
+        options: [
+            "Phương hướng chiến lược của cách mạng.",
+            "Chủ trương tập hợp lực lượng cách mạng.",
+            "Vai trò lãnh đạo cách mạng.",
+            "Phương pháp cách mạng."
         ],
         correctAnswer: 2 - 1,
         explanation: "True"
     },
     {
         id: 12,
-        question: "Nhận định nào sau đây đúng nhất về Đại hội V (3-1982) của Đảng?",
+        question: "Văn kiện nào của Đảng xác định: Vạch ra nhiệm vụ đấu tranh trước mắt để khôi phục hệ thống tổ chức của Đảng và phong trào cách mạng, đặc biệt cần phải “gây dựng một đoàn thể bí mật, có kỷ luật nghiêm ngặt, cứng như sắt, vững như đồng, tức Đảng Cộng sản để hướng đạo quần chúng trên con đường giai cấp chiến đấu?",
         options: [
-            "Là Đại hội đưa nước ta chuyển sang thời kỳ đẩy mạnh công nghiệp hóa, hiện đại hóa đất nước",
-            "Là Đại hội có những đổi mới trong bước đi và biện pháp quá độ lên chủ nghĩa xã hội, trước hết là đổi mới tư duy kinh tế trên một số lĩnh vực",
-            "Là Đại hội đưa nước ta bước vào thời kỳ đổi mới toàn diện đất nước",
-            "Là Đại hội khẳng định dứt khoát xóa bỏ cơ chế quản lý kinh tế tập trung, quan liêu, bao cấp, chuyển sang hạch toán kinh tế kinh doanh xã hội chủ nghĩa"
+            "Chương trình hành động của Đảng Cộng sản Đông Dương (6/1932).",
+            "Cương lĩnh chính trị đầu tiên (2/1930).",
+            "Luận cương chính trị (10/1930).",
+            "Chỉ thị Nhật Pháp bắn nhau và hành động của chúng ta (3/1945)."
         ],
-        correctAnswer: 2 - 1,
+        correctAnswer: 1 - 1,
         explanation: "True"
     },
     {
         id: 13,
-        question: "Trong các chỉ tiêu cụ thể được đưa ra tại Đại hội XII (2016), Đảng xác định đến năm 2020 phấn đấu đạt tỷ lệ lao động qua đào tạo là bao nhiêu phần trăm?",
+        question: "Hình thức tổ chức và đấu tranh trong giai đoạn 1936-1939 ở nước ta?",
         options: [
-            "75%-80%",
-            "65% - 70%",
-            "55% -60%",
-            "45% - 50%"
+            "Công khai, hợp pháp.A",
+            "Nửa công khai, nửa hợp pháp.",
+            "Bí mật, bất hợp pháp.",
+            "Cả ba phương án kia đều đúng."
         ],
-        correctAnswer: 2 - 1,
+        correctAnswer: 4 - 1,
         explanation: "True"
     },
     {
         id: 14,
-        question: "Đại hội nào của Đảng nêu ra bài học: \"Phải luôn luôn xuất phát từ thực tế, tôn trọng và hành động theo quy luật khách quan\"?",
+        question: "Chủ trương và nhận thức mới của Đảng trong những năm 1936 -1939 xác định kẻ thù nguy hại trước mắt của nhân dân Đông Dương là ai?",
         options: [
-            "Đại hội đại biểu toàn quốc lần thứ VI (1986)",
-            "Đại hội đại biểu toàn quốc lần thứ VII (1991)",
-            "Đại hội đại biểu toàn quốc lần thứ V (1982)",
-            "Đại hội đại biểu toàn quốc lần thứ VIII (1996)"
+            "Chủ nghĩa phát xít.",
+            "Chủ nghĩa đế quốc.",
+            "Phong kiến.",
+            "Bọn phản động thuộc địa và tay sai."
         ],
         correctAnswer: 1 - 1,
         explanation: "True"
     },
     {
         id: 15,
-        question: "Đại hội nào của Đảng diễn ra trong bối cảnh sau 5 năm thực hiện đường lối đổi mới, tình hình kinh tế - xã hội có nhiều chuyển biến tích cực, song đất nước vẫn chưa ra khỏi khủng hoảng?",
+        question: "Phong trào đấu tranh sôi nổi nhất trong giai đoạn 1936 – 1939 là gì?",
         options: [
-            "Đại hội đại biểu toàn quốc lần thứ VIII (1996)",
-            "Đại hội đại biểu toàn quốc lần thứ VII (1991)",
-            "Đại hội đại biểu toàn quốc lần thứ IX (2001)",
-            "Đại hội đại biểu toàn quốc lần thứ VI (1986)"
+            "Đông Dương Đại hội.",
+            "Xô Viết Nghệ Tĩnh.",
+            "Phá kho thóc Nhật.",
+            "Đòi Quyền sống đồng bào."
         ],
-        correctAnswer: 2 - 1,
+        correctAnswer: 1 - 1,
         explanation: "True"
     },
     {
         id: 16,
-        question: "Đại hội nào của Đảng đưa đất nước bước sang thời kỳ đẩy mạnh công nghiệp hóa, hiện đại hóa?",
+        question: "Để phù hợp với yêu cầu tập hợp lực lượng cách mạng trong những năm 1936- 1939, Ban Chấp hành Trung ương Đảng quyết định thành lập mặt trận nào?",
         options: [
-            "Đại hội IX (4-2001)",
-            "Đại hội VIII (6-1996)",
-            "Đại hội X (4-2006)",
-            "Đại hội XI (1-2011)"
+            "Mặt trận Liên Việt.",
+            "Mặt trận Dân chủ Đông Dương.",
+            "Mặt trận Việt Minh.",
+            "Mặt trận dân tộc thống nhất phản đế Đông Dương."
         ],
-        correctAnswer: 2 - 1,
+        correctAnswer: 4 - 1,
         explanation: "True"
     },
     {
         id: 17,
-        question: "Đại hội nào sau đây đề ra chỉ tiêu đến năm 2020, tỷ lệ che phủ rừng đạt 42%?",
-        options: [
-            "Đại hội đại biểu toàn quốc lần thứ IX (2001)",
-            "Đại hội đại biểu toàn quốc lần thứ VII (1991)",
-            "Đại hội đại biểu toàn quốc lần thứ XII (2016)",
-            "Đại hội đại biểu toàn quốc lần thứ VI (1986)"
-        ],
-        correctAnswer: 3 - 1,
-        explanation: "True"
-    },
-    {
-        id: 18,
-        question: "Nghị quyết Đại hội lần thứ nhất của Đảng 3-1935",
-        options: [
-            "Luận cương chính trị 10-1930",
-            "Cương lĩnh chính trị đầu tiên của Đảng 2-1930",
-            "Nghị quyết Đại hội lần thứ nhất của Đảng 3-1935",
-            "Chung quanh vấn đề Chiến sách mới của Đảng 10-1936"
-        ],
-        correctAnswer: 2 - 1,
-        explanation: "True"
-    },
-    {
-        id: 19,
-        question: "Đại hội III (9-1960) của Đảng xác định nhiệm vụ của CM VN trong giai đoạn mới ntn?",
-        options: [
-            "Đẩy mạnh CM XHCN ở miền Bắc",
-            "Tất cả",
-            "Một là, đẩy mạnh CM XHCN ở m.Bắc; hai là, tiến hành CM d.tộc d.chủ n.dân ở m.Nam; thực hiện hoàn thành độc lập và dân chủ trong cả nước",
-            "Tiến hành CM d.tốc d.chủ n.dân và xây dựng CNXH ở m.Nam"
-        ],
-        correctAnswer: 3 - 1,
-        explanation: "True"
-    },
-    {
-        id: 20,
-        question: "Sự điều chính nội dung công nghiệp hóa của đại hội V (3-1982) so với Đại hội IV (12-1976) thể hiện ntn?",
-        options: [
-            "Chuyển trọng tâm từ ưu tiên pt CN nặng sang thực hiện cho đc 3 chương trình mục tiêu: lương thực- thực phẩm, hàng xuất khẩu",
-            "Chuyển trọng tâm từ ưu tiên pt CN nặng sang ưu tiên pt CN nhẹ",
-            "Chuyển trọng tâm từ ưu tiên pt CN nặng sang ưu tiên pt NN, coi NN là mặt trận hàng đầu",
-            "Chuyển trọng tâm từ ưu tiên pt CN nặng sang chú trọng pt những ngành, lĩnh vực có lợi thế cạnh tranh cao"
-        ],
-        correctAnswer: 3 - 1,
-        explanation: "True"
-    },
-    {
-        id: 21,
-        question: "Điền từ hoặc cụm từ đúng vào dấu […] trong câu sau: \"Nghị quyết đại hội Đảng chỉ rõ trong toàn bộ hoạt động của Đảng [...]\"",
-        options: [
-            "Lấy cán bộ làm gốc",
-            "Lấy giai cấp làm gốc",
-            "Lấy dân làm gốc",
-            "Lấy nghị quyết làm gốc"
-        ],
-        correctAnswer: 3 - 1,
-        explanation: "True"
-    },
-    {
-        id: 22,
-        question: "Chọn câu trả lời không đúng với tinh thần Nghị quyết Đại hội XI (2011) về định hướng phát triển các thành phần kinh tế?",
-        options: [
-            "Kinh tế tập thể không ngừng được củng cố và phát triển",
-            "Kinh tế nhà nước giữ vai trò bổ trợ cho nền kinh tế",
-            "Kinh tế tư nhân là một trong những động lực quan trọng của nền kinh tế",
-            "Kinh tế có vốn đầu tư nước ngoài được khuyến khích phát triển"
-        ],
-        correctAnswer: 2 - 1,
-        explanation: "True"
-    },
-    {
-        id: 23,
-        question: "Điền cụm từ đúng vào chỗ chỗ [...] trong câu sau: Đại hội đại biểu toàn quốc lần thứ IV (12-1978) là [...]",
-        options: [
-            "Đại hội của đổi mới, dân chủ, kỷ cương vào đoàn kết",
-            "Đại hội của trí tuệ, dân chủ và đoàn kết",
-            "Đại hội của sự đổi mới",
-            "Đại hội toàn thắng của sự nghiệp giải phóng dân tộc thống nhất Tổ quốc, đưa cả nước tiến lên chủ nghĩa xã hội"
-        ],
-        correctAnswer: 4 - 1,
-        explanation: "True"
-    },
-    {
-        id: 24,
-        question: "Đại hội IV (12-1976) của Đảng khẳng định bước vào thời kỳ quá độ lên chủ nghĩa xã hội chúng ta phải tiến hành những cuộc cách mạng nào sau đây?",
-        options: [
-            "Cuộc cách mạng quan hệ sản xuất, cách mạng khoa học kỹ thuật, cách mạng tư tưởng về văn hoá",
-            "Cuộc cách mạng khoa học công nghệ",
-            "Cách mạng công nghiệp lần thứ 4",
-            "Cuộc cách mạng khoa học, kỹ thuật hiện đại"
-        ],
-        correctAnswer: 1 - 1,
-        explanation: "True"
-    },
-    {
-        id: 25,
-        question: "Bài học \"kết hợp chặt chẽ ngay từ đầu đổi mới kinh tế với đổi mới chính trị, lấy đổi mới kinh tế làm trọng tâm, đồng thời từng bước đổi mới chính trị được Đại hội nào của Đảng rút ra?",
-        options: [
-            "Đại hội đại biểu toàn quốc lần thứ VII (1991)",
-            "Đại hội đại biểu toàn quốc lần thứ X (2011)",
-            "Đại hội đại biểu toàn quốc lần thứ VIII (1996)",
-            "Đại hội đại biểu toàn quốc lần thứ IX (2001)"
-        ],
-        correctAnswer: 3 - 1,
-        explanation: "True"
-    },
-    {
-        id: 26,
-        question: "Đại hội nào của Đảng nêu ra bài học \"Phải luôn luôn xuất phát từ thực tế, tôn trọng và hành động theo quy luật khách quan?",
-        options: [
-            "Đại hội đại biểu toàn quốc lần thứ V (1982)",
-            "Đại hội đại biểu toàn quốc lần thứ VII (1991)",
-            "Đại hội đại biểu toàn quốc lần thứ VI (1986)",
-            "Đại hội đại biểu toàn quốc lần thứ VIII (1996)"
-        ],
-        correctAnswer: 3 - 1,
-        explanation: "True"
-    },
-    {
-        id: 27,
-        question: "Chặng đường đầu tiên của thời kỳ quá độ lên chủ nghĩa xã hội ở Việt Nam được Đại hội V (3-1982) xác định trong khoảng thời gian nào?",
-        options: [
-            "Trong những năm 90 của thế kỉ XX",
-            "Trong những năm 80 của thế kỉ XX",
-            "Gồm 5 năm 1981-1985 và những năm còn lại của thập kỷ 80 của thế kỷ XX",
-            "Từ năm 1982 đến năm 1996"
-        ],
-        correctAnswer: 3 - 1,
-        explanation: "True"
-    },
-    {
-        id: 28,
-        question: "Đại hội nào của Đảng đề ra đường lối đổi mới toàn diện, trong đó lấy đổi mới kinh tế làm trọng tâm?",
-        options: [
-            "Đại hội đại biểu toàn quốc lần thứ VI (1986)",
-            "Đại hội đại biểu toàn quốc lần thứ V (1982)",
-            "Đại hội đại biểu toàn quốc lần thứ IV (1976)",
-            "Đại hội đại biểu toàn quốc lần thứ VII (1991)"
-        ],
-        correctAnswer: 1 - 1,
-        explanation: "True"
-    },
-    {
-        id: 29,
-        question: "Sau khoảng thời gian rút vào hoạt động bí mật, Đảng tuyên bố ra hoạt động công khai khi nào?",
-        options: [
-            "Tại Đại hội lầ thứ II (2/1951)",
-            "Tại Đại hội thứ nhất (3/1935)",
-            "Tất cả phương án đều sai",
-            "Tại Đại hội lần thứ 3 (9/1960)"
-        ],
-        correctAnswer: 1 - 1,
-        explanation: "True"
-    },
-    {
-        id: 30,
-        question: "Đại hội XII (2016) của Đảng đề ra chỉ tiêu đến năm 2020, bao nhiêu % dân cư nông thôn được sử dụng nước sạch, hợp vệ sinh?",
-        options: [
-            "90%",
-            "70%",
-            "100%",
-            "80%"
-        ],
-        correctAnswer: 1 - 1,
-        explanation: "True"
-    },
-    {
-        id: 31,
-        question: "Đại hội VI (12-1986) diễn ra trong bối cảnh cuộc cách mạng khoa học – kỹ thuật hiện đại đang phát triển ở giai đoạn thứ mấy?",
-        options: [
-            "Giai đoạn thứ hai",
-            "Giai đoạn thứ ba",
-            "Giai đoạn thứ nhất",
-            "Giai đoạn thứ tư"
-        ],
-        correctAnswer: 1 - 1,
-        explanation: "True"
-    },
-    {
-        id: 32,
-        question: "Đại hội của Đảng xác định \"Giáo dục và Đào tạo là quốc sách hàng đầu\"?",
-        options: [
-            "Đại hội đại biểu toàn quốc lần thứ V (1982)",
-            "Đại hội đại biểu toàn quốc lần thứ VII (1991)",
-            "Đại hội đại biểu toàn quốc lần thứ VI (1986)",
-            "Đại hội đại biểu toàn quốc lần thứ VIII (1996)"
-        ],
-        correctAnswer: 4 - 1,
-        explanation: "True"
-    },
-    {
-        id: 33,
-        question: "Đại hội nào sau đây đề ra chỉ tiêu đến năm 2020, tỷ lệ che phủ rừng đạt 42%?",
-        options: [
-            "Đại hội đại biểu toàn quốc lần thứ IX (2001)",
-            "Đại hội đại biểu toàn quốc lần thứ VII (1991)",
-            "Đại hội đại biểu toàn quốc lần thứ VI (1986)",
-            "Đại hội đại biểu toàn quốc lần thứ XII (2016)"
-        ],
-        correctAnswer: 4 - 1,
-        explanation: "True"
-    },
-    {
-        id: 34,
-        question: "Đại hội III 9-1960 của Đảng xác đinh nhiệm vu của cách mạng Việt Nam trong giai đoạn mới như thế nào.",
-        options: [
-            "Tiến hành cách mạng dân tộc dân chủ nhân dân và xây dựng chủ nghĩa xã hội ở miền Nam",
-            "Tất cả phương án",
-            "Một là đẩy mạnh cách mạng xã hội chủ nghĩa ở miền Bắc .Hai là, tiến hành cách mạng dân tộc dân chủ nhân dân ở miền Nam , thực hiện thống nhất nước nhà, hoàn thành độc lập và dân chủ trong cả nước",
-            "Đẩy mạnh cách mạng xã hội chủ nghĩa ở miền Bắc"
-        ],
-        correctAnswer: 3 - 1,
-        explanation: "True"
-    },
-    {
-        id: 35,
-        question: "Bài học \"đổi mới phải vì lợi ích của nhân dân dực vào nhân dân phát huy vai trò chủ đọng sáng tạo của nhân dân xuất phát từ thực tiễn nhạy bén với cái mới \"được đưa ra trong đại hội nào",
-        options: [
-            "Đại hội đại biểu toàn quốc lần thứ XII 2016",
-            "Đại hội đại biểu toàn quốc lần thứ X 2006",
-            "Đại hội đại biểu toàn quốc lần thứ VIII 1996",
-            "Đại hội đại biểu toàn quốc lần thứ VI 1986"
-        ],
-        correctAnswer: 2 - 1,
-        explanation: "True"
-    },
-    {
-        id: 36,
-        question: "Đại hội IX 4-2001 của Đảng xác định kinh tế thị trường định hướng xã hội chủ nghĩa là mô hình kinh tế ntn",
-        options: [
-            "Là mô hình kinh té ở nước ta tồn tại trong những năm đầu của quá trình đổi mới",
-            "Là mô hình kinh tế của nước ta thời kỳ đổi mới",
-            "Là mô hình kinh tế tổng quát của nước ta trong thời kỳ quá độ lên chủ nghĩa xã hội",
-            "Tất cả"
-        ],
-        correctAnswer: 3 - 1,
-        explanation: "True"
-    },
-    {
-        id: 37,
-        question: "Đại hội nào của Đảng khẳng định thế kỷ XX ghi đậm trong lịch sử loài người ba dấu ấn cực kỳ sâu sắc",
-        options: [
-            "Đại hội XI 1-2011",
-            "Đại hội X 4-2006",
-            "Đại hội IX 4-2001",
-            "Đại hội VII 1-2016"
-        ],
-        correctAnswer: 3 - 1,
-        explanation: "True"
-    },
-    {
-        id: 38,
-        question: "Sự điều chỉnh nội dung công nghiệp hóa của đại hội V (3-1982) so với đại hội IV (12-1976) thể hiện như thế nào",
-        options: [
-            "Chuyển trọng tâm từ ưu tiên phát triển công nghiệp nặng sang thực hiện cho được ba chương trình mục tiêu lương thực thực phẩm hàng tiêu dùng hàng xuất khẩu",
-            "Chuyển trọng tâm từ ưu tiên phát triển công nghiệp nặng sang ưu tiên phát triển công nghiệp nhẹ",
-            "Chuyển trọng tâm tứ ưu tiên phát triển công nghiệp nặng sang chú trọng phát triển những ngành lĩnh vực có lợi thế cạnh tranh cao",
-            "Chuyển trọng tâm từ ưu tiên phát triển công nghiệp nặng sang tập trung sức phát triển nông nghiệp coi nông nghiệp là mặt trận hàng đầu"
-        ],
-        correctAnswer: 4 - 1,
-        explanation: "True"
-    },
-    {
-        id: 39,
         question: "Đại hội lần thứ VII của Quốc tế Cộng sản (7/1935) bàn về vấn đề gì?",
         options: [
             "Giải quyết hậu quả của cuộc khủng hoảng kinh tế 1929-1933.",
@@ -468,7 +204,151 @@ export const sampleQuestions = [
         explanation: "True"
     },
     {
-        id: 40,
+        id: 18,
+        question: "Chủ trương chuyển hướng chỉ đạo chiến lược đặt nhiệm vụ giải phóng dân tộc lên hàng đầu của Đảng được bắt đầu từ Hội nghị Trung ương nào?",
+        options: [
+            "Hội nghị Trung ương lần thứ 5 (3/1938).",
+            "Hội nghị Trung ương lần thứ 6 (11/1939).",
+            "Hội nghị Trung ương lần thứ 7 (7/1940).",
+            "Hội nghị Trung ương lần thứ 8 (5/1941)"
+        ],
+        correctAnswer: 2 - 1,
+        explanation: "True"
+    },
+    {
+        id: 19,
+        question: "Từ tháng 9/1940, tại sao nhân dân Việt Nam rơi vào tình cảnh “một cổ hai tròng”?",
+        options: [
+            "Thực dân Pháp đầu hàng và câu kết với Nhật để thống trị và bóc lột nhân dân Đông Dương.",
+            "Thực dân Pháp câu kết với thế lực phong kiến trong nước để thống trị và bóc lột nhân dân Đông Dương.",
+            "Thực dân Pháp đầu hàng và câu kết với Mỹ để thống trị và bóc lột nhân dân Đông Dương.",
+            "Thực dân Pháp câu kết với Anh để thống trị và bóc lột nhân dân Đông Dương."
+        ],
+        correctAnswer: 1 - 1,
+        explanation: "True"
+    },
+    {
+        id: 20,
+        question: "Tên gọi của các tổ chức quần chúng trong Mặt trận Việt Minh?",
+        options: [
+            "Hội Dân chủ.",
+            "Hội Cứu quốc.",
+            "Hội Phản đế.",
+            "Hội Giải phóng."
+        ],
+        correctAnswer: 2 - 1,
+        explanation: "True"
+    },
+    {
+        id: 21,
+        question: "Trước năm 1945, cùng với các cuộc khởi nghĩa Bắc Sơn và binh biến Đô Lương, cuộc đấu tranh nào là “tiếng súng báo hiệu cho cuộc khởi nghĩa toàn quốc, là bước đầu đấu tranh bằng võ lực của các dân tộc ở một nước Đông Dương”?",
+        options: [
+            "Khởi Nghĩa Thái Nguyên",
+            "Khởi nghĩa Yên Thế.",
+            "Khởi nghĩa Nam kỳ.",
+            "Đông Dương Đại hội."
+        ],
+        correctAnswer: 3 - 1,
+        explanation: "True"
+    },
+    {
+        id: 22,
+        question: "Hội nghị quân sự cách mạng Bắc Kỳ (4/1945) quyết định thống nhất các lực lượng vũ trang và lấy tên là gì?",
+        options: [
+            "Cứu quốc quân.",
+            "Việt Nam giải phóng quân.",
+            "Quân đội nhân dân Việt Nam.",
+            "Vệ quốc quân."
+        ],
+        correctAnswer: 2 - 1,
+        explanation: "True"
+    },
+    {
+        id: 23,
+        question: "Chỉ thị “Nhật – Pháp bắn nhau và hành động của chúng ta” dự kiến thời cơ tổng khởi nghĩa là khi nào?",
+        options: [
+            "Khi quân Đồng minh kéo vào Đông Dương.",
+            "Trước khi kết thúc Chiến tranh thế giới thứ II.",
+            "Sau khi kết thúc Chiến tranh thế giới thứ II.",
+            "Trước khi quân Đồng minh kéo vào Đông Dương."
+        ],
+        correctAnswer: 1 - 1,
+        explanation: "True"
+    },
+    {
+        id: 24,
+        question: "Để làm tiền đề cho cuộc Tổng khởi nghĩa Tháng 8 năm 1945, Chỉ thị “Nhật - Pháp bắn nhau và hành động của chúng ta” đã đề ra chủ trương gì?",
+        options: [
+            "Phát động tổng khởi nghĩa.",
+            "Phát động khởi nghĩa từng phần.",
+            "Phát động cao trào kháng Nhật cứu nước.",
+            "Cả ba phương án kia đều đúng."
+        ],
+        correctAnswer: 3 - 1,
+        explanation: "True"
+    },
+    {
+        id: 25,
+        question: "Hội nghị toàn quốc của Đảng (8/1945) xác định nguyên tắc để chỉ đạo khởi nghĩa là gì?",
+        options: [
+            "Chiến tranh du kích, giải phòng từng vùng.",
+            "Đánh nhanh, thắng nhanh.",
+            "Đánh chiếm vùng thành thị, sau đó mở rộng đến vùng nông thôn.",
+            "Tập trung, thống nhất và kịp thời, đánh chiếm những nơi chắc thắng."
+        ],
+        correctAnswer: 4 - 1,
+        explanation: "True"
+    },
+    {
+        id: 26,
+        question: "Trước Cách mạng Tháng Tám 1945, tổ chức nào thực hiện nhiệm vụ của một Chính phủ lâm thời?",
+        options: [
+            "Ủy ban khởi nghĩa toàn quốc.",
+            "Đảng Cộng sản Đông Dương.",
+            "Ủy ban dân tộc giải phóng Việt Nam.",
+            "Mặt trận Việt Minh."
+        ],
+        correctAnswer: 3 - 1,
+        explanation: "True"
+    },
+    {
+        id: 27,
+        question: "Bài học nào được xác định là nguồn gốc sức mạnh của Cách mạng Tháng Tám năm 1945?",
+        options: [
+            "Lợi dụng mâu thuẫn trong hàng ngũ kẻ thù.",
+            "Nắm vững nghệ thuật khởi nghĩa, nghệ thuật chọn đúng thời cơ.",
+            "Toàn dân nổi dậy trên nền tảng khối liên minh công - nông.",
+            "Gương cao ngọn cờ độc lập dân tộc, kết hợp đúng đắn hai nhiệm vụ chống đế quốc và chống phong kiến."
+        ],
+        correctAnswer: 3 - 1,
+        explanation: "True"
+    },
+    {
+        id: 28,
+        question: "Bài học kinh nghiệm hàng đầu trong đường lối cách mạng của Đảng được rút ra từ Cách mạng Tháng Tám năm 1945?",
+        options: [
+            "Lợi dụng mâu thuẫn trong hàng ngũ kẻ thù.",
+            "Nắm vững nghệ thuật khởi nghĩa, nghệ thuật chọn đúng thời cơ.",
+            "Toàn dân nổi dậy trên nền tảng khối liên minh công - nông.",
+            "Gương cao ngọn cờ độc lập dân tộc, kết hợp và giải quyết đúng đắn hai nhiệm vụ chống đế quốc và chống phong kiến."
+        ],
+        correctAnswer: 4 - 1,
+        explanation: "True"
+    },
+    {
+        id: 29,
+        question: "Mục đích chính của quân Anh vào miền Nam Việt Nam năm 1945 là gì?",
+        options: [
+            "Xâm lược Việt Nam.",
+            "Đánh quân Pháp.",
+            "Giúp thực dân Pháp quay trở lại xâm lược nước ta.",
+            "Giải tán chính quyền thân Nhật Trần Trọng Kim."
+        ],
+        correctAnswer: 3 - 1,
+        explanation: "True"
+    },
+    {
+        id: 30,
         question: "Quyết định đặt tên nước là Việt Nam Dân chủ Cộng hòa, quy định quốc kỳ, quốc ca được đưa ra tại hội nghị/đại hội nào?",
         options: [
             "Hội nghị mở rộng của Ban Thường vụ Trung ương Đảng (9/3/1945).",
@@ -480,8 +360,236 @@ export const sampleQuestions = [
         explanation: "True"
     },
     {
+        id: 31,
+        question: "Phong trào mà Đảng ta đã vận động nhân dân thực hiện để chống nạn mù chữ sau Cách mạng Tháng Tám năm 1945 là gì?",
+        options: [
+            "Xây dựng nếp sống văn hóa mới.",
+            "Bình dân học vụ.",
+            "Bài trừ các tệ nạn xã hội.",
+            "Xoá bỏ văn hóa thực dân nô dịch phản động."
+        ],
+        correctAnswer: 2 - 1,
+        explanation: "True"
+    },
+    {
+        id: 32,
+        question: "Ngày 23/9/1945, nhân dân Nam Bộ đứng lên kháng chiến với tinh thần gì?",
+        options: [
+            "Thà chết tự do còn hơn sống nô lệ.",
+            "Quyết tử cho Tổ quốc quyết sinh.",
+            "Vì miền Nam “Thành đồng Tổ quốc.",
+            "Dậy mà đi hỡi đồng bào ơi!."
+        ],
+        correctAnswer: 1 - 1,
+        explanation: "True"
+    },
+    {
+        id: 33,
+        question: "Để gạt mũi nhọn tấn công của kẻ thù, Đảng ta đã tuyên bố tự giải tán vào thời gian nào và lập ra tổ chức gì để tiếp tục công khai tuyên truyền đường lối của Đảng?",
+        options: [
+            "02/09/1945 - Hội Nghiên cứu Chủ nghĩa Mác.",
+            "25/11/1945 - Hội Nghiên cứu Chủ nghĩa Mác - Lênin.",
+            "03/02/1946 - Hội Nghiên cứu Chủ nghĩa Mác – Lênin ở Đông Dương.",
+            "11/11/1945 - Hội Nghiên cứu Chủ nghĩa Mác ở Đông Dương."
+        ],
+        correctAnswer: 4 - 1,
+        explanation: "True"
+    },
+    {
+        id: 34,
+        question: "Hiệp ước Hoa – Pháp (28/2/1946) được ký kết ở đâu?",
+        options: [
+            "Paris.",
+            "Trùng Khánh.",
+            "Hương Cảng.",
+            "Ma Cao."
+        ],
+        correctAnswer: 2 - 1,
+        explanation: "True"
+    },
+    {
+        id: 35,
+        question: "Trong chỉ thị Kháng chiến kiến quốc, Đảng ta đưa ra nguyên tắc gì để đấu tranh với thực dân Pháp?",
+        options: [
+            "Độc lập về chính trị, nhân nhượng về kinh tế, văn hóa.",
+            "Độc lập về chính trị, nhân nhượng về văn hóa.",
+            "Độc lập về kinh tế, nhân nhượng về chính trị.",
+            "Độc lập về chính trị, nhân nhượng về kinh tế."
+        ],
+        correctAnswer: 4 - 1,
+        explanation: "True"
+    },
+    {
+        id: 36,
+        question: "Kết quả lớn nhất mà quân dân ta đạt được trong chiến dịch Việt Bắc – Thu Đông năm 1947 là:",
+        options: [
+            "Tiêu diệt nhiều sinh lực địch.",
+            "Làm phá sản kế họach “đánh nhanh thắng nhanh”, buộc địch chuyển sang đánh lâu dài với ta.",
+            "ộ đội chủ lực của ta trưởng thành hơn trong chiến đấu.",
+            "ảo vệ vững chắc căn cứ địa Việt Bắc."
+        ],
+        correctAnswer: 2 - 1,
+        explanation: "True"
+    },
+    {
+        id: 37,
+        question: "Khó khăn nào đe dọa trực tiếp đến nền độc lập của Việt Nam sau Cách mạng Tháng Tám năm 1945?",
+        options: [
+            "hính quyền cách mạng non trẻ.",
+            "Kinh tế kiệt quệ và nạn đói hoành hành",
+            "Hơn 90% dân số không biết chữ",
+            "Các thế lực đế quốc và phản động bao vây, chống phá."
+        ],
+        correctAnswer: 4 - 1,
+        explanation: "True"
+    },
+    {
+        id: 38,
+        question: "Kế hoạch Đơ Lat Đơ Tátxinhi (Jean de Lattre de Tassigny) đã làm cho cuộc kháng chiến của ta gặp khó khăn ở khu vực nào?",
+        options: [
+            "ăn cứ địa Việt Bắc.",
+            "Vùng tự do.",
+            "Vùng sau lưng địch.",
+            "Liên khu V và Nam bộ."
+        ],
+        correctAnswer: 3 - 1,
+        explanation: "True"
+    },
+    {
+        id: 39,
+        question: "Điểm mấu chốt của Kế hoạch Nava năm 1953 của thực dân Pháp là:",
+        options: [
+            "Binh lực mạnh.",
+            "Dàn đều lực lượng khắp Việt Nam.",
+            "Tập trung binh lực.",
+            "Phân tán quân để đối phó với các mũi tiến công của ta."
+        ],
+        correctAnswer: 3 - 1,
+        explanation: "True"
+    },
+    {
+        id: 40,
+        question: "Âm mưu của Pháp – Mỹ khi xây dựng tập đoàn cứ điểm Điện Biên Phủ là gì?",
+        options: [
+            "Thu hút và tiêu diệt bộ đội chủ lực của Việt Nam.",
+            "Bảo vệ vùng Tây Bắc.",
+            "Giành lại thế chủ động tại rừng núi Tây Bắc.",
+            "Ngăn chặn sự liên lạc giữa Việt Nam với Lào."
+        ],
+        correctAnswer: 1 - 1,
+        explanation: "True"
+    },
+    {
         id: 41,
-        question: "Đại hội Đảng lần thứ III (9/1960) xác định nhiệm vụ trung tâm trong suốt thời kỳ quá độ lên chủ nghĩa xã hội ở Việt Nam là:",
+        question: "Phương châm tác chiến của ta trong chiến dịch Điện Biên Phủ là gì?",
+        options: [
+            "Đánh nhanh, thắng nhanh.",
+            "Đánh thần tốc, táo bạo, chắc thắng.",
+            "Đánh thần tốc, táo bạo.",
+            "Đánh chắc, tiến chắc."
+        ],
+        correctAnswer: 4 - 1,
+        explanation: "True"
+    },
+    {
+        id: 42,
+        question: "Hội nghị Trung ương Đảng lần thứ 6 (7/1954) xác định kẻ thù chính của Việt Nam lúc này là:",
+        options: [
+            "Đế quốc Mỹ.",
+            "Thực dân Pháp.",
+            "hính quyền Ngô Đình Diệm.",
+            "Đế quốc Mỹ và thực dân Pháp"
+        ],
+        correctAnswer: 1 - 1,
+        explanation: "True"
+    },
+    {
+        id: 43,
+        question: "Sau ngày Hiệp định Genève năm 1954 được ký kết, cách mạng Việt Nam phải đối mặt với một khó khăn từ tình hình quốc tế là:",
+        options: [
+            "Mâu thuẫn giữa Việt Nam và Trung Quốc.",
+            "Mâu thuẫn giữa Trung Quốc và Liên Xô.",
+            "Mâu thuẫn giữa Việt Nam và Liên Xô.",
+            "Mâu thuẫn giữa uba và Trung Quốc."
+        ],
+        correctAnswer: 2 - 1,
+        explanation: "True"
+    },
+    {
+        id: 44,
+        question: "Đặc điểm lớn nhất của cách mạng Việt Nam sau tháng 7/1954 là gì?",
+        options: [
+            "Kẻ thù chính lúc này là đế quốc Mỹ với tiềm lực kinh tế và quân sự hùng mạnh.",
+            "Miền Bắc đi lên chủ nghĩa xã hội từ một nền nông nghiệp lạc hậu.",
+            "Đất nước bị chia thành hai miền, có hai chế độ chính trị xã hội khác nhau.",
+            "Miền Nam trở thành thuộc địa kiểu mới, do chính quyền tay sai Ngô Đình Diệm quản lý."
+        ],
+        correctAnswer: 3 - 1,
+        explanation: "True"
+    },
+    {
+        id: 45,
+        question: "Đối với vấn đề cải tạo công thương nghiệp tư bản tư doanh, Hội nghị Trung ương Đảng lần thứ 16 (5/1959) chủ trương:",
+        options: [
+            "Cải tạo hòa bình đối với giai cấp tư sản.",
+            "Tịch thu toàn bộ tư liệu sản xuất của giai cấp tư sản.",
+            "Duy trì thành phần kinh tế tư bản tư nhân.",
+            "Cả ba phương án kia đều sai."
+        ],
+        correctAnswer: 1 - 1,
+        explanation: "True"
+    },
+    {
+        id: 46,
+        question: "Phong trào Đồng Khởi (1960) đã làm tan rã chính quyền địch nhiều thôn, xã và thành lập nên tổ chức quần chúng có tên là gì?",
+        options: [
+            "Ủy ban nhân dân tự quản.",
+            "Chính quyền Xô Viết.",
+            "Chuyên chính vô sản.",
+            "Chính quyền cách mạng."
+        ],
+        correctAnswer: 1 - 1,
+        explanation: "True"
+    },
+    {
+        id: 47,
+        question: "Ai được bầu làm Bí thư Trung ương cục miền Nam đầu tiên?",
+        options: [
+            "Phạm Hùng.",
+            "Nguyễn Văn Linh.",
+            "Phan Đăng Lưu.",
+            "Lê Duẩn."
+        ],
+        correctAnswer: 2 - 1,
+        explanation: "True"
+    },
+    {
+        id: 48,
+        question: "Hội nghị Trung ương nào của Đảng mở đường cho sự bùng nổ của phong trào Đồng Khởi ở miền Nam đầu năm 1960?",
+        options: [
+            "Hội nghị Trung ương lần thứ 12 (3/1957).",
+            "Hội nghị Trung ương lần thứ 13 (12/1957).",
+            "Hội nghi Trung ương lần thứ 14 (11/1958).",
+            "Hội nghị Trung ương lần thứ 15 (1/1959)."
+        ],
+        correctAnswer: 4 - 1,
+        explanation: "True"
+    },
+    {
+        id: 49,
+        question: "Đại hội Đảng lần thứ III (9/1960) đã xác định mục tiêu chung của cách mạng ở hai miền Nam Bắc là:",
+        options: [
+            "Giải phóng miền Nam, hòa bình thống nhất đất nước.",
+            "Lật đổ chính thể Việt Nam Cộng hòa.",
+            "Đánh đuổi đế quốc Mỹ.",
+            "Hoàn thành cách mang xã hội chủ nghĩa."
+        ],
+        correctAnswer: 1 - 1,
+        explanation: "True"
+    },
+    {
+        id: 50,
+        question: "Đại hội III của Đảng (9/1960) xác định nhiệm vụ trung tâm trong suốt thời kỳ quá độ lên chủ nghĩa xã hội ở Việt Nam là:",
         options: [
             "Cách mạng tư tưởng, văn hóa.",
             "Công nghiệp hóa xã hội chủ nghĩa.",
@@ -492,7 +600,7 @@ export const sampleQuestions = [
         explanation: "True"
     },
     {
-        id: 42,
+        id: 51,
         question: "Đường lối công nghiệp hoá đất nước đã được hình thành từ đại hội nào của Đảng Cộng sản Việt Nam?",
         options: [
             "Đại hội III của Đảng (1960).",
@@ -504,7 +612,91 @@ export const sampleQuestions = [
         explanation: "True"
     },
     {
-        id: 43,
+        id: 52,
+        question: "Trong Chỉ thị “Về Phương hướng và nhiệm vụ công tác trước mắt của cách mạng miền Nam” (1/1961), Đảng xác định tiến công địch bằng ba mũi giáp công là:",
+        options: [
+            "Kinh tế, chính trị, văn hóa.",
+            "Quân sự, chính trị, binh vận.",
+            "Quân sự, binh vận, ngoại giao.",
+            "Quân sự, chính trị, kinh tế."
+        ],
+        correctAnswer: 2 - 1,
+        explanation: "True"
+    },
+    {
+        id: 53,
+        question: "Trong giai đoạn 1961-1965, ở miền Nam, đế quốc Mỹ đã thực hiện chiến lược chiến tranh nào?",
+        options: [
+            "Chiến lược \"chiến tranh đặc biệt\".",
+            "Chiến lược \"chiến tranh đơn phương\".",
+            "Chiến lược \"chiến tranh cục bộ\".",
+            "Chiến lược \"Việt Nam hóa chiến tranh\"."
+        ],
+        correctAnswer: 1 - 1,
+        explanation: "True"
+    },
+    {
+        id: 54,
+        question: "Mục tiêu tấn công của cuộc hành quân tìm diệt Gian-xơn-Xi-ty của Mỹ trong chiến lược “chiến tranh cục bộ” (1965-1968) là gì?",
+        options: [
+            "Căn cứ U Minh.",
+            "Chiến khu Dương Minh Châu.",
+            "Chiến khu rừng Sát.",
+            "Căn cứ Trảng Bàng - Bến Súc - Củ Chi."
+        ],
+        correctAnswer: 2 - 1,
+        explanation: "True"
+    },
+    {
+        id: 55,
+        question: "Ý đồ của Mỹ khi thực hiện cuộc hành quân tìm diệt Gian-xơn Xi-ty trong chiến lược “chiến tranh cục bộ” (1965-1968) là gì?",
+        options: [
+            "Tiêu diệt quân chủ lực và cơ quan đầu não kháng chiến của ta.",
+            "Đánh bại quân giải phóng chủ lực của ta.",
+            "Giành lại thế chủ động trên chiến trường.",
+            "Động viên tinh thần, củng cố quân đội Sài Gòn."
+        ],
+        correctAnswer: 1 - 1,
+        explanation: "True"
+    },
+    {
+        id: 56,
+        question: "Quân dân miền Bắc đập tan cuộc tập kích chiến lược bằng B52 của đế quốc Mỹ trong bao nhiêu ngày đêm và vào thời gian nào?",
+        options: [
+            "10 ngày đêm từ 15 đến 25/10/1970.",
+            "10 ngày đêm từ 16 đến 26/11/1971.",
+            "12 ngày đêm từ 17 đến 29/12/1972.",
+            "12 ngày đêm từ 18 đến 30/12/1972."
+        ],
+        correctAnswer: 4 - 1,
+        explanation: "True"
+    },
+    {
+        id: 57,
+        question: "Ý đồ của Mỹ khi tiến hành chiến tranh phá hoại miền Bắc Việt Nam là gì?",
+        options: [
+            "Phá hoại công cuộc xây dựng chủ nghĩa xã hội ở miền Bắc.",
+            "Ngăn chặn sự chi viện của miền Bắc đối với miền Nam.",
+            "Đè bẹp ý chí quyết tâm chống Mỹ, cứu nước của nhân dân ta.",
+            "Cả ba phương án kia đều đúng."
+        ],
+        correctAnswer: 4 - 1,
+        explanation: "True"
+    },
+    {
+        id: 58,
+        question: "Hoàn cảnh nước ta sau đại thắng mùa Xuân năm 1975 là gì?",
+        options: [
+            "Đất nước hoàn toàn độc lập, thống nhất, quá độ đi lên chủ nghĩa xã hội.",
+            "Đất nước đối mặt với tình thế thù trong giặc ngoài, \"như ngàn cân treo sợi tóc\".",
+            "Đất nước có hòa bình, độc lập; nhân dân hưởng tự do, hạnh phúc.",
+            "Đất nước hội nhập toàn diện vào phe xã hội chủ nghĩa, đổi mới và phát triển."
+        ],
+        correctAnswer: 1 - 1,
+        explanation: "True"
+    },
+    {
+        id: 59,
         question: "Chủ trương hoàn thành thống nhất về mặt nhà nước, đưa cả nước tiến lên chủ nghĩa xã hội được đưa ra tại Hội nghị/Đại hội nào của Đảng?",
         options: [
             "Hội nghị Trung ương lần thứ 24 khóa III (8/1975).",
@@ -516,303 +708,15 @@ export const sampleQuestions = [
         explanation: "True"
     },
     {
-        id: 44,
-        question: "Đặc điểm lớn nào của cách mạng nước ta được Đại hội IV của Đảng (1976) khẳng định là quy định nội dung, hình thức, bước đi của cách mạng xã hội chủ nghĩa ở nước ta?",
+        id: 60,
+        question: "Đâu là biểu hiện cho thấy nước nhà đã được thống nhất về mặt Nhà nước?",
         options: [
-            "Nước ta đang ở trong quá trình từ một xã hội mà nền kinh tế còn phổ biến là sản xuất nhỏ tiến thẳng lên chủ nghĩa xã hội, bỏ qua giai đoạn phát triển tư bản chủ nghĩa.",
-            "Tổ quốc ta đã hòa bình, độc lập, thống nhất, cả nước tiến lên chủ nghĩa xã hội với nhiều thuận lợi rất lớn, song cũng còn nhiều khó khăn.",
-            "Cách mạng xã hội chủ nghĩa ở nước ta tiến hành trong hoàn cảnh quốc tế thuận lợi, song cuộc đấu tranh \"ai thắng ai\" giữa thế lực cách mạng và thế lực phản cách mạng trên thế giới còn gay go, quyết liệt.",
+            "Các tổ chức chính trị-xã hội được thống nhất cả nước với tên gọi mới.",
+            "Quốc hội chung của cả nước quyết định Thủ đô nước Cộng hòa Xã hội Chủ nghĩa Việt Nam là Hà Nội; đổi tên Sài Gòn thành Thành phố Hồ Chí Minh.",
+            "Quốc hội chung của cả nước quyết định đặt tên nước là nước Cộng hòa Xã hội Chủ nghĩa Việt Nam; quy định Quốc kỳ, Quốc ca, Quốc huy.",
             "Cả ba phương án kia đều đúng."
         ],
-        correctAnswer: 1 - 1,
-        explanation: "True"
-    },
-    {
-        id: 45,
-        question: "Chủ trương, nhận định nào là hạn chế của Đảng tại Đại hội IV (1976)?",
-        options: [
-            "Hoàn thành về cơ bản quá trình đưa nền kinh tế nước ta từ sản xuất nhỏ lên sản xuất lớn xã hội chủ nghĩa trong khoảng 20 năm.",
-            "Quá độ lên chủ nghĩa xã hội ở nước ta là thời kỳ khó khăn, phức tạp, lâu dài, phải trải qua nhiều chặng đường.",
-            "Chủ nghĩa xã hội sẽ không sụp đổ ở Liên Xô và Đông Âu.",
-            "Chiến tranh Việt Nam - Trung Quốc sẽ khó nổ ra trong 10 năm tới."
-        ],
-        correctAnswer: 1 - 1,
-        explanation: "True"
-    },
-    {
-        id: 46,
-        question: "Đại hội Đảng lần thứ mấy của Đảng quyết định đổi tên Đảng Lao động Việt Nam thành Đảng Cộng sản Việt Nam?",
-        options: [
-            "Đại hội VII của Đảng (1991).",
-            "Đại hội IV của Đảng (1976).",
-            "Đại hội V của Đảng (1960).",
-            "Đại hội VI của Đảng (1986)."
-        ],
-        correctAnswer: 2 - 1,
-        explanation: "True"
-    },
-    {
-        id: 47,
-        question: "Đại hội nào của Đảng lần đầu tiên đề ra hai nhiệm vụ chiến lược của cách mạng Việt Nam là xây dựng thành công chủ nghĩa xã hội và bảo vệ vững chắc Tổ quốc Việt Nam xã hội chủ nghĩa?",
-        options: [
-            "Đại hội V của Đảng (1982).",
-            "Đại hội VI của Đảng (1986).",
-            "Đại hội VII của Đảng (1991).",
-            "Đại hội X của Đảng (2006)."
-        ],
-        correctAnswer: 1 - 1,
-        explanation: "True"
-    },
-    {
-        id: 48,
-        question: "Nghị quyết Đại hội VI của Đảng (1986) đã đánh giá những sai lầm, khuyết điểm trong sự lãnh đạo, quản lý của Đảng và Nhà nước khi thực hiện Nghị quyết Đại hội V của Đảng (1982) là ở mức độ nào và trên những mặt nào?",
-        options: [
-            "Sai lầm nghiêm trọng về chủ trương, chính sách lớn, về chỉ đạo chiến lược và về tổ chức thực hiện.",
-            "Sai lầm đặc biệt nghiêm trọng về chủ trương, chính sách lớn, về chỉ đạo chiến lược và về tổ chức thực hiện.",
-            "Sai lầm nghiêm trọng về tổ chức thực hiện.",
-            "Sai lầm rất nghiêm trọng về chủ trương, chính sách lớn, về chỉ đạo chiến lược."
-        ],
-        correctAnswer: 1 - 1,
-        explanation: "True"
-    },
-    {
-        id: 49,
-        question: "Đại hội VI của Đảng (1986) đánh dấu bước ngoặt về đổi mới tư duy của Đảng, trước hết là tư duy về lĩnh vực gì?",
-        options: [
-            "Kinh tế.",
-            "Chính trị.",
-            "Văn hóa.",
-            "Đối ngoại."
-        ],
-        correctAnswer: 1 - 1,
-        explanation: "True"
-    },
-    {
-        id: 50,
-        question: "Chủ trương xây dựng đối tác trong quan hệ quốc tế thời kỳ đổi mới: \"Việt Nam sẵn sàng là bạn, là đối tác tin cậy của các nước trong cộng đồng quốc tế, phấn đấu vì hòa bình, độc lập và phát triển\" được đề ra tại Đại hội nào của Đảng Cộng sản Việt Nam?",
-        options: [
-            "Đại hội VI của Đảng (1986).",
-            "Đại hội VII của Đảng (1991).",
-            "Đại hội VIII của Đảng (1996).",
-            "Đại hội IX của Đảng (2001)."
-        ],
         correctAnswer: 4 - 1,
         explanation: "True"
     },
-    {
-        id: 51,
-        question: "Đại hội lần thứ mấy của Đảng đã lần đầu tiên khẳng định một bài học trong quá trình đổi mới đất nước là phải đặt lợi ích quốc gia - dân tộc lên trên hết?",
-        options: [
-            "Đại hội XII của Đảng (2016).",
-            "Đại hội XI của Đảng (2011).",
-            "Đại hội X của Đảng (2006).",
-            "Đại hội XIII của Đảng (2021)."
-        ],
-        correctAnswer: 1 - 1,
-        explanation: "True"
-    },
-    {
-        id: 52,
-        question: "Chủ trương \"Đẩy mạnh công nghiệp hóa xã hội chủ nghĩa là nhiệm vụ trung tâm của cả thời kỳ quá độ lên chủ nghĩa xã hội\" được Đảng ta xác định tại Đại hội nào?",
-        options: [
-            "Đại hội III của Đảng (1960).",
-            "Đại hội IV của Đảng (1976).",
-            "Đại hội V của Đảng (1982).",
-            "Đại hội VI của Đảng (1986)."
-        ],
-        correctAnswer: 1 - 1,
-        explanation: "True"
-    },
-    {
-        id: 53,
-        question: "Chủ trương \"thực hiện nhất quán chính sách phát triển nhiều thành phần kinh tế. Đổi mới cơ chế quản lý, xóa bỏ cơ chế tập trung quan liêu, hành chính, bao cấp chuyển sang hạch toán, kinh doanh, kết hợp kế hoạch với thị trường\" được Đảng ta xác định tại Đại hội nào?",
-        options: [
-            "Đại hội IV của Đảng (1976).",
-            "Đại hội V của Đảng (1982).",
-            "Đại hội VI của Đảng (1986).",
-            "Đại hội VII của Đảng (1991)."
-        ],
-        correctAnswer: 3 - 1,
-        explanation: "True"
-    },
-    {
-        id: 54,
-        question: "Đại hội Đảng lần thứ III (9/1960) xác định vai trò của cách mạng dân tộc dân chủ nhân dân (DTCDND) ở miền Nam như thế nào?",
-        options: [
-            "Cách mạng DTDD ở miền Nam giữ vai trò quyết định nhất đối với sự nghiệp cách mạng Việt Nam.",
-            "Cách mạng DTDD ở miền Nam giữ vai trò quyết định trực tiếp đối với sự nghiệp giải phóng miền Nam và sự nghiệp thống nhất nước nhà.",
-            "Cách mạng DTDD ở miền Nam là tiền tuyến còn miền Bắc là hậu phương.",
-            "Cách mạng DTDD ở miền Nam giữ vai trò quan trọng đối với sự nghiệp cách mạng toàn dân tộc."
-        ],
-        correctAnswer: 2 - 1,
-        explanation: "True"
-    },
-    {
-        id: 55,
-        question: "Đại hội nào của Đảng lần đầu tiên xác định thời kì quá độ lên chủ nghĩa xã hội ở nước ta là phải trải qua nhiều chặng đường?",
-        options: [
-            "Đại hội VI của Đảng (1986).",
-            "Đại hội VIII của Đảng (1996).",
-            "Đại hội V của Đảng (1982).",
-            "Đại hội VII của Đảng (1991)."
-        ],
-        correctAnswer: 3 - 1,
-        explanation: "True"
-    },
-    {
-        id: 56,
-        question: "Cuộc kháng chiến nào của nhân dân ta được Đại hội IV của Đảng (1976) đánh giá là \"mãi mãi được ghi vào lịch sử dân tộc ta như một trong những trang chói lọi nhất\"?",
-        options: [
-            "Cuộc kháng chiến chống Mỹ, cứu nước.",
-            "Chiến thắng Ngọc Hồi - Đống Đa vào mùa Xuân năm 1789.",
-            "Cuộc kháng chiến chống quân Nguyên Mông vào thế kỷ 13.",
-            "Cuộc kháng chiến chống Pháp, cứu nước."
-        ],
-        correctAnswer: 1 - 1,
-        explanation: "True"
-    },
-    {
-        id: 57,
-        question: "Đại hội V của Đảng (1982) đã xác định đâu là mặt trận hàng đầu trong thực hiện công nghiệp hóa xã hội chủ nghĩa?",
-        options: [
-            "Hàng tiêu dùng, thủ công nghiệp.",
-            "Nông nghiệp.",
-            "Công nghiệp nhẹ.",
-            "Công nghiệp nặng."
-        ],
-        correctAnswer: 2 - 1,
-        explanation: "True"
-    },
-    {
-        id: 58,
-        question: "Đại hội XII của Đảng (2016) đã đánh giá thành tựu qua 30 năm đổi mới như thế nào?",
-        options: [
-            "Đạt được những thành tựu to lớn, có ý nghĩa lịch sử.",
-            "Đạt được nhiều thành tựu lớn, có ý nghĩa quan trọng.",
-            "Đạt được những thành tựu lịch sử, có ý nghĩa to lớn.",
-            "Đạt được một số thành tựu to lớn, có ý nghĩa lịch sử."
-        ],
-        correctAnswer: 1 - 1,
-        explanation: "True"
-    },
-    {
-        id: 59,
-        question: "Đại hội nào của Đảng Cộng sản Việt Nam đánh dấu thời kỳ đẩy mạnh công nghiệp hóa, hiện đại hóa đất nước?",
-        options: [
-            "Đại hội VII của Đảng (1991).",
-            "Đại hội VIII của Đảng (1996).",
-            "Đại hội VI của Đảng (1986).",
-            "Đại hội IX của Đảng (2001)."
-        ],
-        correctAnswer: 2 - 1,
-        explanation: "True"
-    },
-    {
-        id: 60,
-        question: "Quan điểm \"Phát triển và nâng chất lượng nguồn nhân lực, nhất là nguồn nhân lực chất lượng cao là một đột phá chiến lược\" được Đảng Cộng sản Việt Nam đề ra tại Đại hội nào?",
-        options: [
-            "Đại hội X của Đảng (2006).",
-            "Đại hội IX của Đảng (2001).",
-            "Đại hội VIII của Đảng (1996).",
-            "Đại hội XI của Đảng (2011)."
-        ],
-        correctAnswer: 4 - 1,
-        explanation: "True"
-    },
-    {
-        id: 61,
-        question: "Từ thực tiễn cách mạng, Đại hội VI của Đảng (1986) đã rút ra bốn bài học kinh nghiệm, trong đó bài học kinh nghiệm thứ hai là:",
-        options: [
-            "Trong toàn bộ hoạt động của mình, Đảng phải quán triệt tư tưởng \"lấy dân làm gốc\", xây dựng và phát huy quyền làm chủ của nhân dân lao động.",
-            "Phải xây dựng Đảng ngang tầm nhiệm vụ chính trị của một đảng cầm quyền lãnh đạo nhân dân tiến hành cuộc cách mạng xã hội chủ nghĩa.",
-            "Đảng phải luôn luôn xuất phát từ thực tế, tôn trọng và hành động theo quy luật khách quan.",
-            "Phải biết kết hợp sức mạnh dân tộc với sức mạnh thời đại trong điều kiện mới."
-        ],
-        correctAnswer: 3 - 1,
-        explanation: "True"
-    },
-    {
-        id: 62,
-        question: "Nghị quyết Trung ương lần thứ 2 (khóa VIII) của Đảng đánh giá giáo dục – đào tạo với khoa học - công nghệ có vai trò gì?",
-        options: [
-            "Là nhiệm vụ hàng đầu.",
-            "Là quốc sách hàng đầu.",
-            "Là nhiệm vụ chiến lược.",
-            "Là nhiệm vụ quan trọng nhất."
-        ],
-        correctAnswer: 2 - 1,
-        explanation: "True"
-    },
-    {
-        id: 63,
-        question: "Mục tiêu đẩy mạnh công nghiệp hoá, hiện đại hoá đất nước được Đại hội X của Đảng xác định như thế nào?",
-        options: [
-            "Gắn với phát triển kinh tế tri thức; coi kinh tế tri thức là yếu tố quan trọng của nền kinh tế và của CNH, HĐH.",
-            "Gắn với nền kinh tế thị trường tư bản chủ nghĩa.",
-            "Gắn với nền kinh tế thị trường, thực hiện chiến lược hàng xuất khẩu.",
-            "Gắn với nền kinh tế khép kín."
-        ],
-        correctAnswer: 1,
-        explanation: "True"
-    },
-    {
-        id: 64,
-        question: "Quan niệm về nền văn hóa Việt Nam có đặc trưng: tiên tiến và đậm đà bản sắc dân tộc, lần đầu tiên được thông qua tại Đại hội nào của Đảng ta?",
-        options: [
-            "Đại hội VII.",
-            "Đại hội VI.",
-            "Đại hội VIII.",
-            "Đại hội V."
-        ],
-        correctAnswer: 1,
-        explanation: "True"
-    },
-    {
-        id: 65,
-        question: "Đại hội nào đã nhận định: \"Trong thế kỉ XXI khoa học và công nghệ sẽ có bước tiến nhảy vọt. Kinh tế tri thức có vai trò ngày càng nổi bật trong quá trình phát triển lực lượng sản xuất\"",
-        options: [
-            "Đại hội VII",
-            "Đại hội IX",
-            "Đại hội X",
-            "Đại hội VIII"
-        ],
-        correctAnswer: 3,
-        explanation: "True"
-    },
-    {
-        id: 66,
-        question: "Trong Đại hội lần thứ III (năm 1960) của Đảng đã chỉ ra con đường nào là con đường duy nhất để cải biến tình trạng kinh tế lạc hậu trong suốt thời kỳ quá độ lên chủ nghĩa xã hội ở Việt Nam?",
-        options: [
-            "Xóa bỏ rào cản kinh tế với phương Tây",
-            "Công nghiệp hóa xã hội chủ nghĩa",
-            "Xóa tình trạng mù chữ; Diệt giặc đói",
-            "Xóa tình trạng mù chữ; Diệt giặc đói vfa kết thúc chiến tranh."
-        ],
-        correctAnswer: 2,
-        explanation: "True"
-    },
-    {
-        id: 67,
-        question: "Đại hội Đảng lần thứ III (9/1960) xác định vai trò của cách mạng xã hội chủ nghĩa (XHCN) ở miền Bắc như thế nào?",
-        options: [
-            "Cách mạng XHCN ở miền Bắc là hậu phương còn miền Nam là tiền tuyến.",
-            "Cách mạng XHCN ở miền Bắc giữ vai trò quyết định nhất đối với toàn bộ sự phát triển của cách mạng Việt Nam và sự nghiệp thống nhất nước nhà.",
-            "Cách mạng XHCN ở miền Bắc là cơ sở cho cuộc đấu tranh giải phóng miền Nam.",
-            "Cách mạng XHCN ở miền Bắc giữ vai trò quan trọng đối với sự nghiệp cách mạng toàn dân tộc."
-        ],
-        correctAnswer: 2,
-        explanation: "True"
-    },
-    {
-        id: 68,
-        question: "Đại hội VI của Đảng (1986) đã đánh giá những sai lầm, khuyết điểm trong công tác lãnh đạo của Đảng khi thực hiện Nghị quyết Đại hội V của Đảng (1982) trước hết là thuộc về trách nhiệm của ai?",
-        options: [
-            "Trước hết là trách nhiệm của BCH Trung ương, Bộ Chính trị.",
-            "Trước hết là trách nhiệm của BCH Trung ương, Bộ Chính trị, Ban Bí thư, Hội đồng Bộ trưởng.",
-            "Trước hết là Bộ Chính trị mà đứng đầu là Tổng bí thư.",
-            "Trước hết là của Hội đồng Bộ trưởng mà đứng đầu là Chủ tịch Hội đồng Bộ trưởng."
-        ],
-        correctAnswer: 2,
-        explanation: "True"
-    }
 ]
